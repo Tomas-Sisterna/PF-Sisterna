@@ -1,0 +1,53 @@
+* {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.custom{
+    font-family: 'Aboreto', cursive;
+    letter-spacing: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+header {
+    background-color:antiquewhite;
+    padding: 20px;
+}
+a {
+    text-size-adjust: auto;
+}
+
+.logo {
+    position: absolute;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.titulo{
+    display:inline;
+    text-align: center;
+    padding: 150px;
+
+}
+
+
+footer {
+    justify-content: center ;
+    background-color:aqua;
+    padding: 20px; 
+       
+}
+
+.logo-instagram{
+    width: 10%;
+}
