@@ -40,14 +40,63 @@ a {
 
 }
 
-
 footer {
     justify-content: center ;
     background-color:aqua;
     padding: 20px; 
-       
 }
 
 .logo-instagram{
     width: 10%;
 }
+
+/* Seccion para el inicio index.html*/
+.home {
+    width: auto;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 50px;
+}
+img {
+    width: auto;  
+}
+
+/* Seccion para productos.html*/
+img{
+    width: auto;
+}
+.home-product{
+    width: 20%;
+    margin-left:8%
+
+}
+.home-description{
+    width:70%;
+    display:inline;
+    float: right; 
+    background-color: rgb(221, 235, 37);       
+}
+
+h2{
+    margin-left: 8%;    
+}
+
+/* Seccion para historia.html */
+section.historia{
+    padding: 10px 20% 0 20%;
+    line-height: 1.9;
+}
+
+/*Seccion para contacto.html*/
+h2{
+    margin-left: 15%;
+    font-family: 'Roboto', 
+    sans-serif;
+}
+
+/* Seccion para ubicación.html*/
+h3{
+    font-family: 'Roboto', 
+    sans-serif;
+}
+
