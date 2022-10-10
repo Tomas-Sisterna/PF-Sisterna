@@ -1,90 +1,91 @@
-* {
-    margin-right: 0;
-    margin-left: 0;
-}
+/* Seccion general */
 
+
+
+.titulo{
+    display:inline;
+    text-align: center;
+    padding: 150px;
+    font-family: 'Aboreto', cursive;
+    letter-spacing: 15px;
+    font-size: 30px;
+    }
+.subtitulo{
+    font-family: 'Aboreto', cursive;
+    letter-spacing: 10px;
+    font-size: 20px;
+    text-align: center;}
+.background-nav{
+    background-color:antiquewhite;
+}
+.logo{
+    width: 120px;
+}
+.logo-instagram{
+    width:30px;
+}
 .custom{
     font-family: 'Aboreto', cursive;
     letter-spacing: 15px;
     font-size: 20px;
     text-align: center;
 }
-
-header {
-    background-color:antiquewhite;
-    padding: 20px;
+.background-footer{
+    background-color:aqua;
 }
-a {
-    text-size-adjust: auto;
-}
-
-.logo {
-    position: absolute;
-}
-
-.text-right{
+.alinear-footer{
     text-align: right;
 }
-.text-center{
-    text-align: center;
+/* Seccion para la galeria.html*/
+#galeria .col-lg-4 {
+    margin:0 !important;
+    padding: 25px;
 }
-
-.text-left{
-    text-align: left;
+#galeria img{
+    width: 100%;
+    height: 100%;
 }
-
-.titulo{
-    display:inline;
-    text-align: center;
-    padding: 150px;
-
+#galeria img:hover {
+    border: 5px solid antiquewhite;
 }
-
-footer {
-    justify-content: center ;
-    background-color:aqua;
-    padding: 20px; 
+/* Seccion para el contacto*/
+.formulario{
+    
+    padding-left: 20%;
+    padding-right: 20%;
+    border-color: antiquewhite;
 }
-
-.logo-instagram{
-    width: 10%;
+.info{
+    padding: 3% 15% 3% 15%;
 }
-
 /* Seccion para el inicio index.html*/
 .home {
     width: auto;
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-top: 50px;
 }
-img {
-    width: auto;  
+.index-size-carousel{
+    padding: 0% 20% 0% 20%;
 }
 
 /* Seccion para productos.html*/
-img{
-    width: auto;
-}
 .home-product{
     width: 20%;
     margin-left:8%
-
 }
-.home-description{
-    width:70%;
-    display:inline;
-    float: right; 
+.galeria-description{    
     background-color: rgb(221, 235, 37);       
 }
-
-h2{
-    margin-left: 8%;    
+.galeria-de-productos{
+    padding: 0% 10% 0% 10%
 }
 
+
 /* Seccion para historia.html */
-section.historia{
-    padding: 10px 20% 0 20%;
-    line-height: 1.9;
+.historia{
+    padding: 0% 20% 2% 20%;
+    line-height: 2;
+}
+.historia-justificar{
+    text-align: justify;
 }
 
 /*Seccion para contacto.html*/
