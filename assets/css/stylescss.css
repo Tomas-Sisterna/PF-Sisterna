@@ -1,2 +1,82 @@
-body {
-  background-color: #0bf029; }
+.titulo {
+  display: inline;
+  text-align: center;
+  padding: 150px;
+  font-family: "Aboreto", cursive;
+  letter-spacing: 15px;
+  font-size: 30px; }
+
+.subtitulo {
+  font-family: "Aboreto", cursive;
+  letter-spacing: 10px;
+  font-size: 20px;
+  text-align: center; }
+
+.background-nav {
+  background-color: antiquewhite; }
+
+.logo {
+  width: 120px; }
+
+.logo-instagram {
+  width: 30px; }
+
+.custom {
+  font-family: "Aboreto", cursive;
+  letter-spacing: 15px;
+  font-size: 20px;
+  text-align: center; }
+
+.background-footer {
+  background-color: aqua; }
+
+.alinear-footer {
+  text-align: right; }
+
+#galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px; }
+
+#galeria img {
+  width: 100%;
+  height: 100%; }
+  #galeria img:hover {
+    border: 5px solid antiquewhite; }
+
+.formulario {
+  padding-left: 20%;
+  padding-right: 20%;
+  border-color: antiquewhite; }
+
+.info {
+  padding: 3% 15% 3% 15%; }
+
+.home {
+  width: auto; }
+
+.index-size-carousel {
+  padding: 0% 20% 0% 20%; }
+
+.home-product {
+  width: 20%;
+  margin-left: 8%; }
+
+.galeria-description {
+  background-color: #ddeb25; }
+
+.galeria-de-productos {
+  padding: 0% 10% 0% 10%; }
+
+.historia {
+  padding: 0% 20% 2% 20%;
+  line-height: 2; }
+
+.historia-justificar {
+  text-align: justify; }
+
+h2 {
+  margin-left: 15%;
+  font-family: "Roboto", sans-serif; }
+
+h3 {
+  font-family: "Roboto", sans-serif; }
